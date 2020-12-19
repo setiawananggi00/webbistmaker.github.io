@@ -1,0 +1,106 @@
+@font-face {
+    font-family: "Poppins";
+    src: url(poppins/Poppins-Regular.otf) format('truetype');
+}
+
+* {
+    font-family: "Poppins", arial;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    padding-top: 250px;
+    
+}
+
+#pricelist {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    background-color: #eee;
+}
+
+#about, #service, #contact {
+    min-height: 640px;
+}
+
+
+
+.jumbotron {
+    height: 650px;
+    background-image: url(img/bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -100px;
+}
+
+.jumbotron h1 {
+    font-family: "Poppins", arial;
+    font-weight: 400;
+    color: #eaeaea;
+}
+
+.jumbotron p {
+    color: #eaeaea;
+    font-size: 20px;
+}
+
+.jumbotron .display-4, .lead, .my-4, .lead {
+    margin-top: 30px;
+}
+
+.my-4 {
+    width: 500px;
+}
+
+.navbar-brand a {
+    font-size: 25px;
+}
+
+.card {
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+hr {
+    width: 250px;
+    border-top: 2px solid #999;
+}
+
+section {
+    padding-top: 20px ;
+    min-height: 600px;
+}
+
+.service {
+    background-color: #eee;
+}
+
+.about {
+    background-image: url(img/bg2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 -250px;
+    color: #333;
+}
+
+.contact {
+    margin-top: 50px;
+    min-height: 600px;
+    background-color: #eaeaea;
+}
+
+footer {
+    padding-top: 15px;
+    width: 100%;
+    color: #aaa;
+}
+
+.footer p {
+    color: #aaa;
+}
+
+
+
